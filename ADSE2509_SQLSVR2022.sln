@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Version 22
+VisualStudioVersion = 18.5.11709.299
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ADSE2509_SQLSVR2022", "ADSE2509_SQLSVR2022.ssmssqlproj", "{DCBA599F-FFDA-F94B-E017-504B21125DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBA599F-FFDA-F94B-E017-504B21125DE8}.Default|Default.ActiveCfg = Default
+		{A6E1BCC1-ADD6-4651-807B-DF3E54318BFA}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6595DE02-F3D0-4387-B687-7C7F04E2FCCD}
+	EndGlobalSection
+EndGlobal
