@@ -1,7 +1,11 @@
 /* This session introduces us to Microsoft's SQL Dialect - Transact SQL (T-SQL and its features) */
 
 -- Switch to the Adventureworks2025 database
+<<<<<<< HEAD
 use adventureworks2025;
+=======
+use adventureworks2022;
+>>>>>>> 772cbe4 (Initial commit)
 
 -- Get the login id of employees whose job title is design engineer from the employee table in the HR schema
 Select LoginID as [Login ID]
@@ -13,7 +17,11 @@ where jobTitle like 'Design Engineer';
 -- person type values i.e. (either 'em' or 'sc')
 
 Select PersonType, Title, FirstName, LastName
+<<<<<<< HEAD
 from AdventureWorks2025.Person.Person
+=======
+from AdventureWorks2022.Person.Person
+>>>>>>> 772cbe4 (Initial commit)
 where PersonType in ('em', 'sc');
 
 -- Demonstrate the 'between' operator

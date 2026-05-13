@@ -1,7 +1,11 @@
 /* Session 06 covers how to create, modify and delete (drop) tables and their columns in SQL Server. */
 
 -- Switch or specify the database where the table(s) will be created
+<<<<<<< HEAD
 use Cust_db_adse2509;
+=======
+use Adan_adse_2509_custdb;
+>>>>>>> 772cbe4 (Initial commit)
 
 -- Create a Customer table
 Create table dbo.[Customer_1]
@@ -86,4 +90,31 @@ Create table Person_Identity
 (
 	PersonID int identity(500,1) not null primary key,
 	Mobilenumber bigint not null
+<<<<<<< HEAD
 );
+=======
+);
+
+-- Add/insert records to the Person_identity table
+insert into Person_Identity (Mobilenumber)
+values
+(983452201),
+(993027754);
+
+-- Get/fetch all records from the Person_Identity table
+select * from Person_Identity;
+
+-- Create a table with a GUID column
+Create table EMP_CellularPhone
+(
+	PersonID uniqueidentifier default newid() not null,
+	PersonName nvarchar(50) not null
+);
+
+-- Add/insert a record to the Emp_cellularPhone table
+insert into EMP_CellularPhone (PersonName)
+values ('William Smith'), ('Abigail Mueni');
+
+-- Get/fetch all records from the EMP_CellularPhone table
+select * from EMP_CellularPhone;
+>>>>>>> 772cbe4 (Initial commit)
