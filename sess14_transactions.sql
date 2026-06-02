@@ -1,4 +1,4 @@
-/*Session 1 4covers transactions in sql server*/
+/*Session 14 covers transactions in sql server*/
 
 --switch to the customer database
 Use Customer_DB_ADSE2509
@@ -114,5 +114,3 @@ END;
 exec upSaveTransExample;
 
 Demonstrate the use of @@trancount function in nested begin and commit statements
-
-
